@@ -4,6 +4,7 @@ import FriendsList from "./FriendList";
 import FormSplitBill from "./FormSplitBill";
 import FormAddFriend from "./FormAddFriend";
 
+// JSON 預設三個 balance 是已經給多少了
 const initialFriends = [
   {
     id: 118836,
