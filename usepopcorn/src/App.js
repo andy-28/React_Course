@@ -53,6 +53,9 @@ const average = (arr) =>
 export default function App() {
   const [movies, setMovies] = useState(tempMovieData);
   const [watched, setWatched] = useState(tempWatchedData);
+
+  fetch(`http://www.omdbapi.com/?i=tt3896198&apikey=491d9e55`);
+
   return (
     <>
       <NavBar>
