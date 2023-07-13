@@ -59,6 +59,7 @@ export default function App() {
   const [error, setError] = useState("");
   const query = "interstellar";
 
+  // JS 語法要去查 try catch finally error
   useEffect(function () {
     async function fetchMovies() {
       try {
