@@ -157,6 +157,10 @@ function NumResults({ movies }) {
   );
 }
 
+function habdleAddWatched(movie) {
+  setImmediate((watched) => [...watched, movie]);
+}
+
 function Main({ children }) {
   return <main className="main">{children}</main>;
 }
